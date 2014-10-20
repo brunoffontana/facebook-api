@@ -1,0 +1,133 @@
+.alertSus{
+	margin:0 auto;
+	padding:0 auto;
+	width:90%;
+	height: 40px;
+	background:#00ffcc;
+	color:#009900;
+	text-align: center;
+	padding-top:13px;
+	border-radius:10px;
+	border:1px solid #009900;
+	font-size: 18px;
+}
+.alertEr{
+	margin:0 auto;
+	padding:0 auto;
+	width:90%;
+	height: 50px;
+	background:#FF0033;
+	color:#990000;
+	text-align: center;
+	padding-top:20px;
+	border-radius:10px;
+	border:1px solid #FF0033;
+}
+textarea{
+	width:100%;
+	font-size:20px;
+}
+input[type='text']{
+	width: 100%;
+	height: 35px;
+	font-size:20px;
+}
+.desc{
+	width: 100%;
+	height:auto;
+	display: table;
+	background: #f6f7f8;
+	padding:10px 10px;
+	border:1px solid #999;
+	margin: 10px 0;
+	box-shadow: 2px 2px 5px #ccc;
+}
+
+/*-----------===============[[[[[[[[[[ MEMORY ]]]]]]]]]]]]=============----------------*/
+
+.content{
+	width:466px;
+	height: 466px;
+	margin:0 auto;
+	padding:0 auto;
+	margin-top:100px;
+
+}
+.box1{
+	width: 50%;
+	height: 50%;
+	background:url('../img/verde.png')no-repeat;
+	background-size: 100%;
+	position: relative;
+	float:left;
+}
+.box2{
+	width: 50%;
+	height: 50%;
+	background:url('../img/red.png')no-repeat;
+	background-size: 100%;
+	float:left;
+	position: relative;
+}
+.box3{
+	width: 50%;
+	height: 50%;
+	background:url('../img/blue.png')no-repeat;
+	background-size: 100%;
+	float:left;
+	margin-top: -2px;
+	position: relative;
+}
+.box4{
+	width: 50%;
+	height: 50%;
+	background:url('../img/yello.png')no-repeat;
+	background-size: 100%;
+	float:left;
+	margin-top: -2px;
+	position: relative;
+}
+.box5{
+	width:120px;
+	height:120px;
+	background-color: #999;
+	position: relative;
+	top:170px;
+	-webkit-transform:rotate(45deg);
+}
+a.select1{
+	width: 50%;
+	height: 50%;
+	cursor: pointer;
+	position: relative;
+}
+a.select1:hover{
+	opacity:0.5;
+}
+a.select2{
+	width: 50%;
+	height: 50%;
+	cursor: pointer;
+	position: relative;
+}
+a.select2:hover{
+	opacity:0.5;
+}
+a.select3{
+	width: 50%;
+	height: 50%;
+	cursor: pointer;
+	position: relative;
+}
+a.select3:hover{
+	opacity:0.5;
+}
+a.select4{
+	width: 50%;
+	height: 50%;
+	cursor: pointer;
+	position: relative;
+}
+a.select4:hover{
+	opacity:0.5;
+}
