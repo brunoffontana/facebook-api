@@ -10,11 +10,13 @@
 		$thumb = $exibe['fotosThumb'];
 		$original = $exibe['fotosOrig'];
 		$main = $exibe['fotosDelete'];
+	}
+	$result = mysql_query("DELETE FROM fotos WHERE fotos_id = '".$id_fotos."'") or die(mysql_error());
+	if($result){
 		unlink('../photobooth2/uploads/main/'.$main);
 		unlink('../photobooth2/uploads/original/'.$original);
 		unlink('../photobooth2/uploads/thumbs/'.$thumb);
 	}
-	$result = mysql_query("DELETE FROM fotos WHERE fotos_id = '".$id_fotos."'") or die(mysql_error());
 	
-	echo "<script>window.location.href='../index.php';</script>";
+	echo "<script>window.location.href='../photobooth2/';</script>";
 ?>

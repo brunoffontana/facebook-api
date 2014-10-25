@@ -353,7 +353,8 @@
     <link href="css/style.css" rel="stylesheet" media="screen"/>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/ajax.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
 <body>
 	<div class="container">
@@ -382,7 +383,7 @@
 	</div>
 	<div class="row-fluid">
 		
-		<form action="" method="post">
+		<form id="form-msg" action="" method="post">
 			<input type="text" class="input-large"  name="nome" placeholder="Nome" required="required"><br>
 			<textarea cols="45" id="campo" rows="5" placeholder="Digite sua mensagem..." name="mensagem" onkeyup="mostrarResultado(this.value,140,'spcontando');contarCaracteres(this.value,140,'sprestante')"></textarea><br />
 			<span id="spcontando" style="font-family:Georgia;color:red;">Ainda não temos nada digitado..</span><br />
@@ -419,5 +420,6 @@
 			?>
 	</div>
 	</div>
+	<div id="show"></div>
 </body>
 </html>
